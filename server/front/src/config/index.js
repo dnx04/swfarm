@@ -3,7 +3,7 @@ let url = "";
 console.log("!!!", import.meta.env)
 
 if (import.meta.env.DEV) {
-  url = "http://127.0.0.1:5137";
+  url = "http://127.0.0.1:22703";
 } else {
   url = window.location.origin;
 }

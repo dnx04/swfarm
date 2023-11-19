@@ -34,7 +34,7 @@ services:
       dockerfile: ./docker/front/Dockerfile
     restart: unless-stopped
     ports:
-      - "5137:80"
+      - "22703:80"
 
   postgres:
     image: postgres:14.1-alpine

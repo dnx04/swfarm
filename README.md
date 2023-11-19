@@ -1,17 +1,11 @@
-# S4DFarm
+# swfarm
 
-This is a fork of [DestructiveFarm](https://github.com/DestructiveVoice/DestructiveFarm), 
-rewritten by the C4T BuT S4D team over the years.
+One should install this farm on cloud-hosted vulnbox for best configuration and performance.
 
-## Running:
+## Usage:
 - Change the [./server/app/config.py](./server/app/config.py) file to your liking
     (don't forget to change the `SERVER_PASSWORD`).
-- Change external_redis password in docker-compose.yml (of you're planning to use it).
-- `docker compose up --build -d`
-- **GLHF**
+- `docker compose up --build -d` (or `make`)
 
-Some screenshots:
-
-![flags](resources/flags.png)
-
-![teams](resources/teams.png)
+## Run your exploit
+`./swfarm/client/start_sploit.py <python/perl/ruby exploit file> --server-url <server url> --server-pass <server pass`
